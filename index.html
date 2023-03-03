@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paperpal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <header>
+        <div class="logo-container">
+          <img src="logo.png" alt="Logo">
+        </div>
+        <div class="tagline-container">
+          <h1>"Elevating your research for publication success"</h1>
+        </div>
+        <button class="login-btn">
+            <i class="fas fa-sign-in-alt"></i>
+            Login
+        </button>
+          
+    </header>
+      
+	<main>
+        <div class="container">
+            <div class="quote">
+                <h3>"Transform your research paper into a polished masterpiece with our comprehensive suite of tools that provide grammatical error checking, publication integrity verification, image quality assessments, and consistent formatting throughout. With our software, you can be confident that your research is publication-ready and stands out from the crowd."</h3>
+            </div>
+        </div>
+        <div class="drop-container">
+            <h2>Drop your file here or select one from your device</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+            <input id="input-chk" type="file" name="pdf_file" id="pdf_file" accept=".pdf,.doc,.docx">
+            <button id="btn-check" type="submit">Check</button>
+            </form>
+        </div>
+		
+	</main>
+    
+  </body>
+</html>

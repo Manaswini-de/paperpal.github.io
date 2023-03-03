@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(131, 184, 248);
+}
+
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.logo-container {
+    width: 200px;
+}
+
+.tagline-container {
+    flex-grow: 1;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.tagline-container h1 {
+    font-size: 27px;
+    margin: 0;
+    color: #0f365d;
+  } 
+
+.quote{
+    height: 10rem;
+    width: 65rem;
+    text-align: justify;
+    padding: 6px;
+    font-family: cursive;
+    background-color: rgb(248, 248, 150);
+    border-radius: 45px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.drop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed gray;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#btn-check{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+  
+#input-chk{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
